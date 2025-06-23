@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
 
-const page = () => {
+const Navbar = () => {
   return (
     <div>
-              {/* Navigation */}
+                {/* Navigation */}
         <nav className="bg-white shadow-sm">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16">
@@ -28,7 +28,7 @@ const page = () => {
           </div>
         </nav>
     </div>
-  );
-};
+  )
+}
 
-export default page;
+export default Navbar;
